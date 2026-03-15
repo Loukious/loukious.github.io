@@ -25,7 +25,7 @@ const CONFIG = {
       },
     },
   },
-  seo: { title: 'Portfolio of Ariful Alam', description: '', imageURL: '' },
+  seo: { title: 'Portfolio of Wael Hasnaoui', description: '', imageURL: '' },
   social: {
     linkedin: 'wael-hasnaoui',
     x: '',
@@ -58,15 +58,15 @@ const CONFIG = {
     'JavaScript',
     'React.js',
     'Node.js',
-    'Nest.js',
     'MySQL',
     'PostgreSQL',
     'Git',
     'Docker',
-    'PHPUnit',
     'CSS',
-    'Antd',
-    'Tailwind',
+    'Flask',
+    'Tornado',
+    'TypeScript',
+    'Python',
   ],
   experiences: [
     {
