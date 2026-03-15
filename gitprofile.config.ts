@@ -23,39 +23,13 @@ const CONFIG = {
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
-      manual: {
-        // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
-      },
-    },
-    external: {
-      header: 'My Projects',
-      // To hide the `External Projects` section, keep it empty.
-      projects: [
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
-        },
-      ],
     },
   },
   seo: { title: 'Portfolio of Ariful Alam', description: '', imageURL: '' },
   social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'wael-hasnaoui',
+    x: '',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
@@ -65,18 +39,18 @@ const CONFIG = {
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     discord: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: '',
     phone: '',
     email: '',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'PHP',
@@ -96,60 +70,82 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'SAGEMCOM',
+      position: 'Software Developer',
+      from: 'Jan 2024',
+      to: 'Apr 2024',
+      companyLink: 'https://sagemcom.com/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Clevory Training',
+      position: 'Full-stack Developer',
+      from: 'Jul 2023',
+      to: 'Sep 2023',
+      companyLink: 'https://www.clevory.com/',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'PCAP – Certified Associate Python Programmer',
+      body: 'Python Institute',
+      year: 'August 2025',
+      link: 'https://www.credly.com/earner/earned/badge/b7fbde8d-ca10-4d88-9e88-b79c00c4f8d1',
+    },
+    {
+      name: 'RHCSA – Red Hat Certified System Administrator',
+      body: 'Red Hat',
+      year: 'August 2025 - August 2028',
+      link: 'https://www.credly.com/earner/earned/badge/6e2f6970-efad-4e48-bd30-0c11437e0fc8',
+    },
+    {
+      name: 'eWPTx – Web Application Penetration Tester eXtreme',
+      body: 'eLearnSecurity / INE',
+      year: 'October 2025 - October 2028',
+      link: 'https://certs.ine.com/b9c90832-545c-4383-8187-5e4d090b611a',
+    },
+    {
+      name: 'eCPPT – Certified Professional Penetration Tester',
+      body: 'eLearnSecurity / INE',
+      year: 'January 2026 - January 2029',
+      link: 'https://certs.ine.com/277b7589-369e-4b9a-b1e7-0f8467052580',
+    },
+    {
+      name: 'eMAPT – Mobile Application Penetration Tester',
+      body: 'eLearnSecurity / INE',
+      year: 'October 2025 - October 2028',
+      link: 'https://certs.ine.com/5f09001f-e221-41d5-821c-f7e7268b5619',
+    },
+    {
+      name: 'eWPT – Web Application Penetration Tester',
+      body: 'eLearnSecurity / INE',
+      year: 'September 2025 - September 2028',
+      link: 'https://certs.ine.com/477c3fd8-bee2-4596-ba68-5f072bdfb212',
+    },
+    {
+      name: 'eJPT – Junior Penetration Tester',
+      body: 'eLearnSecurity / INE',
+      year: 'July 2025 - July 2028',
+      link: 'https://certs.ine.com/e552bb67-c26d-40dd-a21b-d45c3212eed9',
+    },
+    {
+      name: 'Big Data Engineer Certificate',
+      body: 'IBM',
+      year: 'December 2023',
+      link: 'https://www.credly.com/earner/earned/badge/38145e4f-8780-4b10-a959-fba543239a35',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'TEK-UP University of Digital Sciences',
+      degree: 'Engineering Degree in Computer Systems and Network Security',
+      from: 'Sep 2024',
+      to: 'Present',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
-  ],
-  publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      institution: 'The Higher Institute of Information Technologies and Communication',
+      degree: 'Bachelor\'s Degree in Software Engineering and Information Systems',
+      from: '',
+      to: 'June 2024',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
@@ -159,10 +155,10 @@ const CONFIG = {
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+    id: 'G-WMF07VLLC0', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
   // Track visitor interaction and behavior. https://www.hotjar.com
-  hotjar: { id: '', snippetVersion: 6 },
+  hotjar: { id: '89251cbe0e55b', snippetVersion: 6 },
   themeConfig: {
     defaultTheme: 'lofi',
 
@@ -217,13 +213,6 @@ const CONFIG = {
       'procyon',
     ],
   },
-
-  // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
 
   enablePWA: true,
 };
