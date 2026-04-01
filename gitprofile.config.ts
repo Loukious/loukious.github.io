@@ -86,6 +86,12 @@ const CONFIG = {
   ],
   certifications: [
     {
+      name: 'CRTP – Certified Red Team Professional',
+      body: 'Altered Security',
+      year: 'April 2026',
+      link: 'https://www.credential.net/8ba814b7-5104-4fb8-abfd-98bb710eb3bc',
+    },
+    {
       name: 'PCAP – Certified Associate Python Programmer',
       body: 'Python Institute',
       year: 'August 2025',
@@ -148,6 +154,11 @@ const CONFIG = {
       to: 'June 2024',
     },
   ],
+  blog: {
+    source: 'dev', // medium | dev
+    username: 'loukious', // to hide blog section, keep it empty
+    limit: 10, // How many articles to display. Max is 10.
+  },
   googleAnalytics: {
     id: 'G-WMF07VLLC0', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
