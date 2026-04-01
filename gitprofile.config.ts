@@ -155,7 +155,7 @@ const CONFIG = {
     },
   ],
   blog: {
-    source: 'dev', // medium | dev
+    source: 'medium', // medium | dev
     username: 'loukious', // to hide blog section, keep it empty
     limit: 10, // How many articles to display. Max is 10.
   },
